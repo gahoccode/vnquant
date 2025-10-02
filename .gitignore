@@ -3,3 +3,10 @@ build/
 dist/
 vnquant.egg-info/
 *__pycache__*
+
+# Mac
+.DS_Store
+
+# Anthropic
+.claude/
+

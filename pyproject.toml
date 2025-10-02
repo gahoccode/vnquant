@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vnquant"
+version = "0.1.21"
+description = "Viet Nam stock market"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    {name = "KhanhPhamDinh", email = "phamdinhkhanh.tkt53.neu@gmail.com"}
+]
+keywords = ["data", "finance", "stock", "vietnam"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "bs4>=0.0.1",
+    "lxml>=4.3.0",
+    "matplotlib>=3.0.0",
+    "numpy>=1.20.2",
+    "pandas>=0.19.2",
+    "plotly>=4.2.1",
+    "pypandoc>=1.4",
+    "requests>=2.3.0",
+    "wrapt>=1.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/phamdinhkhanh/vnquant"
+Download = "https://github.com/phamdinhkhanh/vnquant"
